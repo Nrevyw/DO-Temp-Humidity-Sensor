@@ -8,6 +8,7 @@ Code for Arduino Thermistor sensor
 
 Notes on GUI Code:
 
-1) Log file is appended to, so delete/rename log file before running again
-2) Log file directory is printed to the console
-3) If port number can’t be accessed/errors with module, restart kernel (Ctrl+K on Pyzo)
+1) Log directories need to be edited before use (lines 46-47 in GUI Code(..).py ; lines 11 & 47 in Arduino+OM-24 Compile.py)
+2) Log file is appended to, so rename/delete prior log file before running again
+3) Log file directory is printed to the console 
+4) If port number can’t be accessed/errors with module, restart kernel (Ctrl+K on Pyzo)
