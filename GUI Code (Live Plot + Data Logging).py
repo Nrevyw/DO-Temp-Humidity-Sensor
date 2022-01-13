@@ -90,7 +90,7 @@ ax1 = fig.add_subplot(1, 1, 1)
 line, = ax1.plot(xar, yar, 'r', marker='o')
 
 # EDIT PORT NUMBER AND BAUD RATE
-arduino = serial.Serial('COM3', 9600)
+arduino = serial.Serial('COM10', 9600)
 
 list_values = []
 list_in_floats = []
